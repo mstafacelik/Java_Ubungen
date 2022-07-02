@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Ü01_SummeVonStellenwerte {
+public class Übung_001 {
 
     public static void main(String[] args) {
 
