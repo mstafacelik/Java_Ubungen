@@ -1,6 +1,6 @@
 package java_Übungen;
 
-public class Übung_002 {
+public class Ü002_1den20yeKadarAltAltaYazdirma {
 
     public static void main(String[] args) {
         /*

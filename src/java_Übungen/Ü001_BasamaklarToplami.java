@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Übung_001 {
+public class Ü001_BasamaklarToplami {
 
     public static void main(String[] args) {
 
