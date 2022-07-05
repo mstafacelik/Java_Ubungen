@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Übung006_SesliSessizHarfBulma {
+public class Ü006_SesliSessizHarfBulma {
     public static void main(String[] args) {
 
 
