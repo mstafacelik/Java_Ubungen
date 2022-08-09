@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class U008_StrTerstenYazdirma {
+public class Ü008_StrTerstenYazdirma {
 
 
     public static void main(String[] args) {
