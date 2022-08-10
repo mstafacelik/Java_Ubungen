@@ -28,12 +28,14 @@ public class Ü010_YillikKacKgSeker {
         int yillikTuketimInt= (int) yillikSekerKg;
         int kirkYillikTuketim= (int) kirkYillikSekerKg;
 
-        if (sekerSayisi > 0) {
+        if (sekerSayisi > 0 && bardakSayisi>0) {
 
             System.out.println("Bir yilda " + yillikTuketimInt + " kg seker tüketiyorsunuz");
             System.out.println("40 yilda " + kirkYillikTuketim + " kg seker tüketiyorsunuz");
 
         } else System.out.println("Aferin, boyle devam et :)");
+
+        scan.close();
 
 
     }
