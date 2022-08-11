@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Übung13_replaceAll {
+public class Ü013_replaceAll {
     public static void main(String[] args) {
 
     /*
