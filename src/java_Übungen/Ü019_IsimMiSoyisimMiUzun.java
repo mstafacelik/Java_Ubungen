@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Ü019 {
+public class Ü019_IsimMiSoyisimMiUzun {
     public static void main(String[] args) {
         /*
          Kullanicidan isim ve soyismini ayri ayri alin

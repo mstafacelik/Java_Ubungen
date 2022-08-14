@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Ü018 {
+public class Ü018_SifreSorusu {
 
     public static void main(String[] args) {
 
