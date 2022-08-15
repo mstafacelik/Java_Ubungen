@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Ü022_FaktoriyelYazdirma {
+public class Ü023_FaktoriyelYazdirma {
     public static void main(String[] args) {
         // kullanicidan 20'den kucuk bir pozitif tamsayi alip
         // bu sayinin faktoryel'ini yazdirin

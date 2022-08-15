@@ -25,7 +25,7 @@ public class Ü001_BasamaklarToplami {
         while (num != 0) {
             toplam += (num % 10);
             num /= 10;
-            ++count;
+            count++;
         }
 
         System.out.println("Basamak Toplamı: " + toplam + " olup girilen sayi " + count + " basamaklidir");
