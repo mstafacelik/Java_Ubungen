@@ -22,7 +22,7 @@ public class Ü001_BasamaklarToplami {
         int count = 0;
         int toplam = 0;
 
-        while (num != 0) {
+        while (num != 0) {         // num != 0 yerine num>0 da yazilabilir
             toplam += (num % 10);
             num /= 10;
             count++;
