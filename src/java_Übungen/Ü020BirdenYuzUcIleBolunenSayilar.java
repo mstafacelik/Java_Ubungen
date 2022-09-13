@@ -1,6 +1,6 @@
 package java_Übungen;
 
-public class Ü020 {
+public class Ü020BirdenYuzUcIleBolunenSayilar {
     public static void main(String[] args) {
 
         // 1'den 100'e kadar(100 dahil) sayilardan

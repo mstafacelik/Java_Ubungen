@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Ü021 {
+public class Ü021BesIleBilunenSayilar {
     public static void main(String[] args) {
 
         // kullanicidan baslangic ve bitis sayilarini alin

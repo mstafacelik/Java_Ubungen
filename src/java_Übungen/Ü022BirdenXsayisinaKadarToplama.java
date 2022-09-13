@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Ü022 {
+public class Ü022BirdenXsayisinaKadarToplama {
     public static void main(String[] args) {
 
         // kullanicidan pozitif bir tam sayi alin

@@ -2,7 +2,7 @@ package java_Übungen;
 
 import java.util.Scanner;
 
-public class Ü024 {
+public class Ü024RakamlarToplami {
     public static void main(String[] args) {
 
         // Kullanicidan pozitif bir sayi alip
