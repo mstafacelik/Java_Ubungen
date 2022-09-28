@@ -17,6 +17,12 @@ public class Ü012_ContainsSorusu {
          */
 
 
+
+
+
+
+
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bir cümle giriniz");
         String cümle = scanner.nextLine();

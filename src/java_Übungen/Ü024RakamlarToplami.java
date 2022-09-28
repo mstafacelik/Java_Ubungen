@@ -27,7 +27,7 @@ public class Ü024RakamlarToplami {
         for (int i = 0; i < basamakSayisi; i++) {
 
             rakamlarToplami += sayi % 10;   // birler basamigini rakamlar toplamina ekler
-            sayi = sayi / 10;               // isimizin bittigi birler basamgini yok eder
+            sayi /= 10;                     // isimizin bittigi birler basamgini yok eder
 
         }
 

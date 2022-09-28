@@ -30,7 +30,7 @@ public class Ü004_YarimPiramit {
 
             for (int j = 1; j <= i; j++) {
 
-                System.out.print("*"); // println oldugu icin alt satira gecmeden loop ciktilarini yan yana yazar
+                System.out.print(j); // println oldugu icin alt satira gecmeden loop ciktilarini yan yana yazar
 
             }
             System.out.println();    // print oldugu icin alt satira gecmemizi sagliyor

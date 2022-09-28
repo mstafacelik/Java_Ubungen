@@ -11,26 +11,33 @@ public class Ü019_IsimMiSoyisimMiUzun {
          */
 
 
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("isim ve soyisim giriniz.\nAlta gecmek icin Enter'a basin");
-        String isim=scanner.next();
-        String soyIsim=scanner.next();
+        String isim = scanner.next();
+        String soyIsim = scanner.next();
 
 
+        //1. yol ternary
+        String str = isim.length() > soyIsim.length() ?
+                (isim.substring(0, 1).toUpperCase() +
+                        isim.substring(1).toLowerCase() + " " + soyIsim.substring(0, 1).toUpperCase() +
+                        soyIsim.substring(1).toLowerCase()) : isim.substring(0, 1).toUpperCase() +
+                isim.substring(1).toLowerCase() + " " + soyIsim.toUpperCase();
+        System.out.println(str);
 
-        if (isim.length()>soyIsim.length()){
+        // 2. Yol
+        if (isim.length() > soyIsim.length()) {
 
-            System.out.println(isim.substring(0,1).toUpperCase()+isim.substring(1).toLowerCase());
-            System.out.println(soyIsim.substring(0,1).toUpperCase()+isim.substring(1).toLowerCase());
+            System.out.println(isim.substring(0, 1).toUpperCase() + isim.substring(1).toLowerCase());
+            System.out.println(soyIsim.substring(0, 1).toUpperCase() + isim.substring(1).toLowerCase());
 
-        }else if(soyIsim.length()>isim.length()){
+        } else if (soyIsim.length() > isim.length()) {
 
 
-            System.out.println(isim.substring(0,1).toUpperCase()+isim.substring(1).toLowerCase());
+            System.out.println(isim.substring(0, 1).toUpperCase() + isim.substring(1).toLowerCase());
             System.out.println(soyIsim.toUpperCase());
 
-        }else System.out.println("isim ve soy isim uzunlugu birbirine esittir");
-
+        } else System.out.println("isim ve soy isim uzunlugu birbirine esittir");
 
 
     }

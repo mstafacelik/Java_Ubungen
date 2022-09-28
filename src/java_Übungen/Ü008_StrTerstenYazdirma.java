@@ -14,16 +14,28 @@ public class Ü008_StrTerstenYazdirma {
         java
                 avaj
     */
-
         Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen bir kelime giriniz : ");
         String str = scan.nextLine();
-
-        String arr[] = str.split("");
+        String[] arr = str.split("");
 
         for (int i = str.length() - 1; i >= 0; i--) {
             System.out.print(arr[i]);
         }
+
+        System.out.println("==========");
+        // 2. yol
+
+        String a="Ali" ;
+
+        for (int i=a.length()-1; i>=0; i--){
+
+            System.out.print(a.charAt(i));
+
+
+        }
+
+
 
     }
 }
